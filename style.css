@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+body{
+    background-color:#7a4b38;
+    margin: 0%;
+}
+header{
+    background-color: #A1423B;
+    padding: 2%;
+}
+
+main{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #A0653C;
+    margin: 1%;
+}
+
+h1, h2, h3{
+    margin: 0px;
+    text-align: center;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.158);
+}
+h3{
+    margin: 10px;
+}
+p{
+    text-indent: 5%;
+    text-align: justify;
+}
+h6, h5{
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.706);
+}
+h5{
+    font-size: 1em;
+    color: white;
+}
+h6{
+    text-indent: 10px;
+    font-size: 0.8em;
+    color: white;
+    margin: 1px;
+}
+.lado{
+    display: inline-block;
+    gap: 2em;
+}
+.secao{
+    display: inline-flex;
+    gap: 30px;
+}
+.conteudo{
+    margin: 1em;
+}
+img{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.199);
+}
+.fotos{
+    height: 233.33px;
+    width: 350px;
+}
+footer{
+    padding: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: auto;
+    background-color: #5f2c1857;
+}
+footer > img{
+    margin: auto  auto auto 50px;
+    width: 20px;
+}
+
+hr{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.512);
+}
+
+.bebida{
+    align-items: center;
+    background-color: #E0BCAD;
+    border-radius: 10px;
+    margin: 1em;
+    padding-bottom: 10px;
+}
