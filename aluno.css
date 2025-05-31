@@ -1,21 +1,20 @@
 @charset "UTF-8";
-*{
-      font-family: Source Sans Pro, sans-serif;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body{
     background-color: #D3D5D5;
 }
 header{
-    background-color: #79787d3b;
+    background-color: #b7ade43b;
     padding: 20px;
     margin-bottom: 10px;
 }
 header > h1{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600px;
     margin: 0px;
     text-shadow: 3px 3px 2px#12382449;
-    color: #1C5739;
+    color: #1C574C;
     text-align: center;
 }
 #bibliografia{
@@ -23,9 +22,9 @@ header > h1{
     gap: 30px;
     margin-bottom: 10px;
 }
-section#bibliografia > img{
-    border-radius: 10px;
-    box-shadow: 2px 5px 50px black;
+aside > img{
+    border-radius: 6px;
+    box-shadow: 1px 3px 20px 0px #00000061;
 
 }
 main{
@@ -36,6 +35,11 @@ main{
 abbr{
     text-decoration: none;
 }
+h2, h3, h4, h6{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 h2{
     font-weight: bolder;
     text-shadow: -1px 1px 5px #184b2e48;
@@ -43,6 +47,7 @@ h2{
     text-align: center;
 }
 h3{
+    font-weight: bold;
     text-align: center;
     color: #223D3D;
     
