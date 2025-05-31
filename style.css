@@ -59,15 +59,13 @@ ul,li{
 }
 #conteudo-principal{
     background-color: rgba(0, 0, 0, 0.007);
-
 }
 .bebida{
     padding: 2%;
-    align-items: center;
     border-radius: 3px;
     background-color: #4d42340c;
     margin: 1em;
-    padding-bottom: 10px;
+
 }
 .bebida > hr{
     width: 50%;
@@ -76,7 +74,6 @@ article{
     margin: 1%;
     display: inline-flex;
     gap: 2%;
-
 }
 img{
     border-radius: 10px;
