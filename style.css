@@ -66,15 +66,13 @@ ul,li{
     border-radius: 3px;
     background-color: #4d42340c;
     margin: 1em;
-
 }
 .bebida > hr{
     width: 50%;
 }
 .ava{
-    margin: 1%;
     display: inline-flex;
-    gap: 2%;
+    gap: 30px;
 }
 img{
     border-radius: 10px;
@@ -89,6 +87,7 @@ footer{
     background-color: #000000cb;
 }
 hr{
+    margin-bottom: 10px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.512);
 }
 a > img{
